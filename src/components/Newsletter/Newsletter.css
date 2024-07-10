@@ -1,0 +1,30 @@
+.Newsletter-container{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 80px;
+      gap: 35px;
+      background-color: rgba(128, 128, 128, 0.123);
+      padding: 50px;
+}
+
+.Newsletter-container h1{
+      text-transform: uppercase;
+      letter-spacing: 5.5px;
+}
+
+.Newsletter-container p{
+      letter-spacing: 1.2px;
+}
+
+.Newsletter-container #Subscribe-btn{
+      width: 180px;
+      padding: 15px;
+      border: none;
+      outline: none;
+      background-color: #da291c;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+}

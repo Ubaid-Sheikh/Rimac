@@ -1,0 +1,134 @@
+.Contact-container {
+  margin: 50px;
+  height: 70vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text {
+  width: 40%;
+  padding: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 40%;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form input,
+textarea {
+  background: none;
+  outline: none;
+  border: 1px solid #da291c;
+  border-radius: 5px;
+  width: 400px;
+  color: white;
+  padding: 10px;
+}
+
+form input:nth-child(1) {
+  height: 40px;
+}
+
+form textarea {
+  resize: none;
+}
+
+form input:nth-child(3) {
+  height: 50px;
+  width: 200px;
+  font-size: 15px;
+  background-color: #da291c;
+  cursor: pointer;
+  color: white;
+  border: none;
+}
+
+.or {
+  width: 20%;
+  font-size: 35px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 90%;
+}
+
+.socials a {
+  width: 120px;
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.socials a:nth-child(1) {
+  background-color: #107e49;
+}
+
+.socials a:nth-child(2) {
+  background: linear-gradient(
+    45deg,
+    #0077b5,
+    #0d2d74,
+    #0511be,
+    #0a427a,
+    #1612e9,
+    #00a0dc
+  );
+}
+
+.socials a:nth-child(3) {
+  background: #f09433;
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1);
+}

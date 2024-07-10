@@ -1,0 +1,31 @@
+.Footer-container{
+      display: flex;
+      width: 80%;
+      margin: auto;
+      justify-content: space-around;
+      align-items: center;
+      padding: 50px;
+}
+
+.Footer-container ul{
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      text-align: center;
+      list-style: none;
+      font-size: 11px;
+      
+}
+
+.Footer-container ul>li:first-child{
+      text-transform: uppercase;
+      font-weight: bolder;
+      font-size: 15px;
+      margin-bottom: 20px;
+}
+
+footer{
+      text-align: center;
+      padding: 20px;
+      font-size: 15px;
+}

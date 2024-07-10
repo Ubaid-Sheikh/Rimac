@@ -1,0 +1,68 @@
+.Nav-wrapper {
+  display: flex;
+}
+
+.active{
+  border-bottom: 2px solid #e91f1fb9;
+}
+
+.Main-nav {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation: fade-up 1s;
+  padding: 15px;
+}
+
+.Main-nav nav {
+  display: flex;
+  gap: 25px;
+  font-weight: 600;
+  flex: 1;
+  margin-left: 50px;
+}
+
+nav a{
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.Main-nav nav > a:hover {
+  cursor: pointer;
+  color: #e91f1f;
+  transition: 0.2s ease-in-out;
+}
+
+.Main-nav > a {
+  letter-spacing: 3px;
+  font-size: 22px;
+  font-weight: bolder;
+  background: #e91f1f;
+  background: linear-gradient(to right, #e91f1f 16%, #684215 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Main-nav button {
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.9px;
+  cursor: pointer;
+}
+
+
+@keyframes fade-up {
+  0%{
+        opacity: 0;
+        transform: translateY(-30px) scale(0.9);
+  }
+
+  100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+  }
+}
